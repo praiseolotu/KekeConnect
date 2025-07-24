@@ -1,5 +1,8 @@
 package com.kekeconnect;
 
+import android.os.Bundle;
+import android.os.Build;
+
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
@@ -29,4 +32,24 @@ public class MainActivity extends ReactActivity {
         // If you opted-in for the New Architecture, we enable the Fabric Renderer.
         DefaultNewArchitectureEntryPoint.getFabricEnabled());
   }
+
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+
+      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+          requestPermissions(new String[] {
+              android.Manifest.permission.BLUETOOTH_CONNECT,
+              android.Manifest.permission.BLUETOOTH_ADVERTISE,
+              android.Manifest.permission.BLUETOOTH_SCAN
+          }, 1);
+      } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+          requestPermissions(new String[] {
+              android.Manifest.permission.ACCESS_FINE_LOCATION,
+              android.Manifest.permission.ACCESS_COARSE_LOCATION
+          }, 1);
+      }
+  }
+
+
 }
