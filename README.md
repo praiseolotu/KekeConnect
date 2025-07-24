@@ -1,8 +1,46 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# KekeConnect - Offline BLE Messaging App
 
-# Getting Started
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+An offline messaging app using Bluetooth Low Energy (BLE) technology, developed initially with React Native and transitioning to native Kotlin for optimal BLE performance.
+
+## Project Background
+
+As a final-year Computer Engineering student project, we explored local communication technologies (Bluetooth Classic, BLE, WiFi Direct) and chose BLE for its:
+- Low power consumption
+- Modern device support
+- Inspiration from Tecno Mobile's FreeLink feature
+
+**Developer**: [Olotu Praise Jah](https://x.com/x86olioxx)  
+[![Twitter](https://img.shields.io/badge/-@x86olioxx-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/x86olioxx)
+[![LinkedIn](https://img.shields.io/badge/-Olotu%20Praise%20Jah-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olotu-praise-jah-9701b7162/)
+
+## Current Status
+🚧 **Transition Phase**: Moving from React Native to native Kotlin implementation to overcome BLE limitations in cross-platform frameworks.
+
+### Known Limitations
+- React Native's BLE abstraction layer causes performance issues
+- Native implementation will provide:
+  - Better connection reliability
+  - Lower battery consumption
+  - Full BLE feature access
+
+## Getting Started
+
+### Prerequisites
+- Node.js ≥16
+- Java JDK 11+
+- Android Studio (for native development)
+- Physical Android device with BLE support (recommended)
+
+### Installation
+```bash
+git clone https://github.com/praiseolotu/KekeConnect.git
+cd KekeConnect
+npm install
+```
+### Project Setup
 
 ## Step 1: Start the Metro Server
 
@@ -55,25 +93,3 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
