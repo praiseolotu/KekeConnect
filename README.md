@@ -93,3 +93,10 @@ Now that you have successfully run the app, let's modify it.
 
    For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
+## 🚀 Download KekeConnect App
+
+Click the link below to download the latest version of the KekeConnect app:
+
+📦 [Download APK](./android/app/build/outputs/apk/release/app-release.apk)
+
+> ⚠️ Make sure to enable "Install from Unknown Sources" in your Android device settings to install the app.
