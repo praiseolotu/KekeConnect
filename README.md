@@ -97,6 +97,6 @@ Now that you have successfully run the app, let's modify it.
 
 Click the link below to download the latest version of the KekeConnect app:
 
-📦 [Download APK](./android/app/build/outputs/apk/release/app-release.apk)
+📦 [Download APK](./android/app/build/outputs/apk/release/)
 
 > ⚠️ Make sure to enable "Install from Unknown Sources" in your Android device settings to install the app.
