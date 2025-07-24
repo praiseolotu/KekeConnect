@@ -7,7 +7,7 @@ An offline messaging app using Bluetooth Low Energy (BLE) technology, developed 
 
 ## Project Background
 
-As a final-year Computer Engineering student project, we explored local communication technologies (Bluetooth Classic, BLE, WiFi Direct) and chose BLE for its:
+A final-year Computer Engineering student reached out to me to help deliver on a project, we explored local communication technologies (Bluetooth Classic, BLE, WiFi Direct) and chose BLE for its:
 - Low power consumption
 - Modern device support
 - Inspiration from Tecno Mobile's FreeLink feature
