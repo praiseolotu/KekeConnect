@@ -66,7 +66,7 @@ const DriverScreen = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, backgroundColor: '#0d230a81' },
+  container: { flex: 1, padding: 20, backgroundColor: '#0a0a23' },
   title: { color: '#fff', fontSize: 22, fontWeight: 'bold', marginBottom: 20 },
   input: {
     backgroundColor: '#808080',
